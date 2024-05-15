@@ -107,7 +107,7 @@ function displayRandomItems() {
                 itemDiv.style.width = 'calc(33.33% - 20px)'; 
 
                 const itemLink = document.createElement('a');
-                itemLink.href = `../itemDetails/itemDetails.html?userId=${item.userId}&itemId=${item.itemId}`;
+                itemLink.href = `../SwapZone/itemDetails/itemDetails.html?userId=${item.userId}&itemId=${item.itemId}`;
                 itemLink.style.textDecoration = 'none';
 
                 const itemImageContainer = document.createElement('div');
