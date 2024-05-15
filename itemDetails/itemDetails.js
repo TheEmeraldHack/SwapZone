@@ -58,7 +58,7 @@ onValue(ref(db, `items/${userId}/${itemId}`), function(snapshot) {
         // Create a link to show contact details of the user
         const contactLink = document.createElement('a');
         contactLink.textContent = 'Contact User';
-        contactLink.href = `/contactDetails/contact.html?userId=${userId}`; // Assuming you have a contact page with userId as a parameter
+        contactLink.href = `/SwapZone/contactDetails/contact.html?userId=${userId}`; // Assuming you have a contact page with userId as a parameter
         document.body.appendChild(contactLink);
     } else {
         console.error('Item not found');
